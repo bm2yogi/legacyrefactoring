@@ -1,0 +1,10 @@
+bin
+obj
+packages
+node_modules
+
+*.suo
+*.user
+
+*ncrunch*
+*resharper*
