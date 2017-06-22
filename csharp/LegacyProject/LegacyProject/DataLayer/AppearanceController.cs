@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using System.Net;
 using System.Web.Http;
 using LegacyProject.BookSigning;
 
-namespace LegacyProject
+namespace LegacyProject.DataLayer
 {
     public class AppearanceController: ApiController
     {
@@ -32,10 +32,5 @@ namespace LegacyProject
             }
             return StatusCode(HttpStatusCode.Accepted);
         }
-    }
-
-    public interface IAppearanceRepository
-    {
-        void UpdateAppearance(Appearance appearance);
     }
 }
